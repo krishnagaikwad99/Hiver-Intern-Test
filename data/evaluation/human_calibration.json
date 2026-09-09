@@ -1,0 +1,632 @@
+[
+  {
+    "id": "eval_001",
+    "message": "How do I request a refund for an accidental App Store purchase?",
+    "conversation_context": "Customer tweet to brand: How do I request a refund for an accidental App Store purchase?",
+    "intent": "billing_refund_query",
+    "expected_action": "auto_handle",
+    "reference_resolution": "You can report a problem and request refunds directly at [URL]",
+    "difficulty": "hard",
+    "noise_level": "noisy",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "correctness": 4,
+      "helpfulness": 3,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_002",
+    "message": "Can't sign into my Apple ID, says account locked.",
+    "conversation_context": "Customer tweet to brand: Can't sign into my Apple ID, says account locked.",
+    "intent": "account_access_login",
+    "expected_action": "escalate",
+    "reference_resolution": "For account access issues, please visit [URL] to reset your credentials securely.",
+    "difficulty": "easy",
+    "noise_level": "clean",
+    "escalation_reason": "Account security sensitive action.",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_003",
+    "message": "AirPods left earbud isn't playing audio at all.",
+    "conversation_context": "Customer tweet to brand: AirPods left earbud isn't playing audio at all.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Try resetting your AirPods by holding the setup button on the case for 15 seconds until the status light flashes amber.",
+    "difficulty": "easy",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_004",
+    "message": "Can't sign into my Apple ID, says account locked.",
+    "conversation_context": "Customer tweet to brand: Can't sign into my Apple ID, says account locked.",
+    "intent": "account_access_login",
+    "expected_action": "escalate",
+    "reference_resolution": "For account access issues, please visit [URL] to reset your credentials securely.",
+    "difficulty": "hard",
+    "noise_level": "clean",
+    "escalation_reason": "Account security sensitive action.",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_005",
+    "message": "How do I request a refund for an accidental App Store purchase?",
+    "conversation_context": "Customer tweet to brand: How do I request a refund for an accidental App Store purchase?",
+    "intent": "billing_refund_query",
+    "expected_action": "auto_handle",
+    "reference_resolution": "You can report a problem and request refunds directly at [URL]",
+    "difficulty": "medium",
+    "noise_level": "noisy",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 3,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_006",
+    "message": "Can't sign into my Apple ID, says account locked.",
+    "conversation_context": "Customer tweet to brand: Can't sign into my Apple ID, says account locked.",
+    "intent": "account_access_login",
+    "expected_action": "escalate",
+    "reference_resolution": "For account access issues, please visit [URL] to reset your credentials securely.",
+    "difficulty": "easy",
+    "noise_level": "clean",
+    "escalation_reason": "Account security sensitive action.",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "correctness": 4,
+      "helpfulness": 5,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_007",
+    "message": "Battery draining super fast on my MacBook Pro.",
+    "conversation_context": "Customer tweet to brand: Battery draining super fast on my MacBook Pro.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "We can look into your battery health. Go to System Settings > Battery > Battery Health. What does it say?",
+    "difficulty": "easy",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "correctness": 5,
+      "helpfulness": 3,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_008",
+    "message": "How do I request a refund for an accidental App Store purchase?",
+    "conversation_context": "Customer tweet to brand: How do I request a refund for an accidental App Store purchase?",
+    "intent": "billing_refund_query",
+    "expected_action": "auto_handle",
+    "reference_resolution": "You can report a problem and request refunds directly at [URL]",
+    "difficulty": "easy",
+    "noise_level": "noisy",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 3,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_009",
+    "message": "Battery draining super fast on my MacBook Pro.",
+    "conversation_context": "Customer tweet to brand: Battery draining super fast on my MacBook Pro.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "We can look into your battery health. Go to System Settings > Battery > Battery Health. What does it say?",
+    "difficulty": "hard",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "correctness": 4,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_010",
+    "message": "My iPhone screen is freezing after updating to iOS 17. Please help!",
+    "conversation_context": "Customer tweet to brand: My iPhone screen is freezing after updating to iOS 17. Please help!",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Sorry to hear that! Try force restarting your device: press volume up, down, then hold power button. Let us know if that helps.",
+    "difficulty": "easy",
+    "noise_level": "noisy",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_011",
+    "message": "Can't sign into my Apple ID, says account locked.",
+    "conversation_context": "Customer tweet to brand: Can't sign into my Apple ID, says account locked.",
+    "intent": "account_access_login",
+    "expected_action": "escalate",
+    "reference_resolution": "For account access issues, please visit [URL] to reset your credentials securely.",
+    "difficulty": "hard",
+    "noise_level": "clean",
+    "escalation_reason": "Account security sensitive action.",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_012",
+    "message": "How do I request a refund for an accidental App Store purchase?",
+    "conversation_context": "Customer tweet to brand: How do I request a refund for an accidental App Store purchase?",
+    "intent": "billing_refund_query",
+    "expected_action": "auto_handle",
+    "reference_resolution": "You can report a problem and request refunds directly at [URL]",
+    "difficulty": "hard",
+    "noise_level": "noisy",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 4,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_013",
+    "message": "AirPods left earbud isn't playing audio at all.",
+    "conversation_context": "Customer tweet to brand: AirPods left earbud isn't playing audio at all.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Try resetting your AirPods by holding the setup button on the case for 15 seconds until the status light flashes amber.",
+    "difficulty": "hard",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_014",
+    "message": "My iPhone screen is freezing after updating to iOS 17. Please help!",
+    "conversation_context": "Customer tweet to brand: My iPhone screen is freezing after updating to iOS 17. Please help!",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Sorry to hear that! Try force restarting your device: press volume up, down, then hold power button. Let us know if that helps.",
+    "difficulty": "easy",
+    "noise_level": "noisy",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "correctness": 4,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_015",
+    "message": "AirPods left earbud isn't playing audio at all.",
+    "conversation_context": "Customer tweet to brand: AirPods left earbud isn't playing audio at all.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Try resetting your AirPods by holding the setup button on the case for 15 seconds until the status light flashes amber.",
+    "difficulty": "hard",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_016",
+    "message": "AirPods left earbud isn't playing audio at all.",
+    "conversation_context": "Customer tweet to brand: AirPods left earbud isn't playing audio at all.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Try resetting your AirPods by holding the setup button on the case for 15 seconds until the status light flashes amber.",
+    "difficulty": "medium",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_017",
+    "message": "My iPhone screen is freezing after updating to iOS 17. Please help!",
+    "conversation_context": "Customer tweet to brand: My iPhone screen is freezing after updating to iOS 17. Please help!",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Sorry to hear that! Try force restarting your device: press volume up, down, then hold power button. Let us know if that helps.",
+    "difficulty": "easy",
+    "noise_level": "noisy",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_018",
+    "message": "Battery draining super fast on my MacBook Pro.",
+    "conversation_context": "Customer tweet to brand: Battery draining super fast on my MacBook Pro.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "We can look into your battery health. Go to System Settings > Battery > Battery Health. What does it say?",
+    "difficulty": "easy",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "correctness": 4,
+      "helpfulness": 3,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_019",
+    "message": "Can't sign into my Apple ID, says account locked.",
+    "conversation_context": "Customer tweet to brand: Can't sign into my Apple ID, says account locked.",
+    "intent": "account_access_login",
+    "expected_action": "escalate",
+    "reference_resolution": "For account access issues, please visit [URL] to reset your credentials securely.",
+    "difficulty": "easy",
+    "noise_level": "clean",
+    "escalation_reason": "Account security sensitive action.",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_020",
+    "message": "How do I request a refund for an accidental App Store purchase?",
+    "conversation_context": "Customer tweet to brand: How do I request a refund for an accidental App Store purchase?",
+    "intent": "billing_refund_query",
+    "expected_action": "auto_handle",
+    "reference_resolution": "You can report a problem and request refunds directly at [URL]",
+    "difficulty": "easy",
+    "noise_level": "noisy",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_021",
+    "message": "My iPhone screen is freezing after updating to iOS 17. Please help!",
+    "conversation_context": "Customer tweet to brand: My iPhone screen is freezing after updating to iOS 17. Please help!",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Sorry to hear that! Try force restarting your device: press volume up, down, then hold power button. Let us know if that helps.",
+    "difficulty": "easy",
+    "noise_level": "noisy",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_022",
+    "message": "Can't sign into my Apple ID, says account locked.",
+    "conversation_context": "Customer tweet to brand: Can't sign into my Apple ID, says account locked.",
+    "intent": "account_access_login",
+    "expected_action": "escalate",
+    "reference_resolution": "For account access issues, please visit [URL] to reset your credentials securely.",
+    "difficulty": "hard",
+    "noise_level": "clean",
+    "escalation_reason": "Account security sensitive action.",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_023",
+    "message": "Battery draining super fast on my MacBook Pro.",
+    "conversation_context": "Customer tweet to brand: Battery draining super fast on my MacBook Pro.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "We can look into your battery health. Go to System Settings > Battery > Battery Health. What does it say?",
+    "difficulty": "hard",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_024",
+    "message": "AirPods left earbud isn't playing audio at all.",
+    "conversation_context": "Customer tweet to brand: AirPods left earbud isn't playing audio at all.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Try resetting your AirPods by holding the setup button on the case for 15 seconds until the status light flashes amber.",
+    "difficulty": "easy",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "helpfulness": 3,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_025",
+    "message": "How do I request a refund for an accidental App Store purchase?",
+    "conversation_context": "Customer tweet to brand: How do I request a refund for an accidental App Store purchase?",
+    "intent": "billing_refund_query",
+    "expected_action": "auto_handle",
+    "reference_resolution": "You can report a problem and request refunds directly at [URL]",
+    "difficulty": "hard",
+    "noise_level": "noisy",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 5,
+      "correctness": 4,
+      "helpfulness": 3,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_026",
+    "message": "My iPhone screen is freezing after updating to iOS 17. Please help!",
+    "conversation_context": "Customer tweet to brand: My iPhone screen is freezing after updating to iOS 17. Please help!",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Sorry to hear that! Try force restarting your device: press volume up, down, then hold power button. Let us know if that helps.",
+    "difficulty": "easy",
+    "noise_level": "noisy",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "correctness": 4,
+      "helpfulness": 3,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_027",
+    "message": "AirPods left earbud isn't playing audio at all.",
+    "conversation_context": "Customer tweet to brand: AirPods left earbud isn't playing audio at all.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Try resetting your AirPods by holding the setup button on the case for 15 seconds until the status light flashes amber.",
+    "difficulty": "hard",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 4,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_028",
+    "message": "Can't sign into my Apple ID, says account locked.",
+    "conversation_context": "Customer tweet to brand: Can't sign into my Apple ID, says account locked.",
+    "intent": "account_access_login",
+    "expected_action": "escalate",
+    "reference_resolution": "For account access issues, please visit [URL] to reset your credentials securely.",
+    "difficulty": "hard",
+    "noise_level": "clean",
+    "escalation_reason": "Account security sensitive action.",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 3,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_029",
+    "message": "My iPhone screen is freezing after updating to iOS 17. Please help!",
+    "conversation_context": "Customer tweet to brand: My iPhone screen is freezing after updating to iOS 17. Please help!",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Sorry to hear that! Try force restarting your device: press volume up, down, then hold power button. Let us know if that helps.",
+    "difficulty": "hard",
+    "noise_level": "noisy",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 5,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_030",
+    "message": "AirPods left earbud isn't playing audio at all.",
+    "conversation_context": "Customer tweet to brand: AirPods left earbud isn't playing audio at all.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Try resetting your AirPods by holding the setup button on the case for 15 seconds until the status light flashes amber.",
+    "difficulty": "hard",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "helpfulness": 5,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_031",
+    "message": "Battery draining super fast on my MacBook Pro.",
+    "conversation_context": "Customer tweet to brand: Battery draining super fast on my MacBook Pro.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "We can look into your battery health. Go to System Settings > Battery > Battery Health. What does it say?",
+    "difficulty": "medium",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_032",
+    "message": "AirPods left earbud isn't playing audio at all.",
+    "conversation_context": "Customer tweet to brand: AirPods left earbud isn't playing audio at all.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Try resetting your AirPods by holding the setup button on the case for 15 seconds until the status light flashes amber.",
+    "difficulty": "easy",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 4,
+      "correctness": 4,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_033",
+    "message": "AirPods left earbud isn't playing audio at all.",
+    "conversation_context": "Customer tweet to brand: AirPods left earbud isn't playing audio at all.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Try resetting your AirPods by holding the setup button on the case for 15 seconds until the status light flashes amber.",
+    "difficulty": "medium",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 4,
+      "groundedness": 4,
+      "correctness": 5,
+      "helpfulness": 5,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_034",
+    "message": "AirPods left earbud isn't playing audio at all.",
+    "conversation_context": "Customer tweet to brand: AirPods left earbud isn't playing audio at all.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "Try resetting your AirPods by holding the setup button on the case for 15 seconds until the status light flashes amber.",
+    "difficulty": "hard",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "correctness": 4,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  },
+  {
+    "id": "eval_035",
+    "message": "Battery draining super fast on my MacBook Pro.",
+    "conversation_context": "Customer tweet to brand: Battery draining super fast on my MacBook Pro.",
+    "intent": "device_hardware_issue",
+    "expected_action": "auto_handle",
+    "reference_resolution": "We can look into your battery health. Go to System Settings > Battery > Battery Health. What does it say?",
+    "difficulty": "medium",
+    "noise_level": "clean",
+    "escalation_reason": "",
+    "human_scores": {
+      "relevance": 5,
+      "groundedness": 5,
+      "correctness": 5,
+      "helpfulness": 4,
+      "tone": 5
+    }
+  }
+]
