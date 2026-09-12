@@ -1,0 +1,29 @@
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Environment credentials & secrets
+.env
+*.pem
+*.key
+
+# Large data files and indices (can be regenerated via scripts)
+data/raw/
+data/processed/*.pkl
+data/processed/*.bin
+data/processed/*.csv
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Pytest / Coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
